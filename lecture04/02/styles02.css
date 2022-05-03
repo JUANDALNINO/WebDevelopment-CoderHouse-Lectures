@@ -10,7 +10,7 @@ body {
     background-color: chocolate;
     margin: auto;
     padding: auto;
-    border: 2px solid black;
+    border: 5px solid black;
 }
 
 .header__nav {
@@ -42,4 +42,55 @@ body {
 
 /* MAIN */
 
+.main {
+    background-color: rgb(193, 211, 30);
+    width: 760px;
+    height: auto;
+    margin: 5px auto;
+    padding: auto;
+    border: 5px solid black;
+}
+
+.main__div1 {
+    background-color: rgb(32, 159, 190);
+    width: 700px;
+    height: 150px;
+    margin: 15px auto;
+    padding: auto;
+    border: 2px solid black;
+}
+
+.main__div2 {
+    background-color: rgb(169, 127, 209);
+    width: 350px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    padding: auto;
+    border: 2px solid black;
+}
+
+.main__div3 {
+    background-color: burlywood;
+    width: 280px;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    margin-left: 430px;
+    padding: auto;
+    border: 2px solid black;
+}
+
 /* FOOTER */
+
+.footer {
+    background-color: rgb(202, 82, 27);
+    width: 760px;
+    height: 50px;
+    margin: 5px auto;
+    padding: auto;
+    border: 5px solid black;
+}
