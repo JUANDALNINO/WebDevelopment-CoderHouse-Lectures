@@ -1,13 +1,19 @@
-body {
+html {
     background-color: rgb(145, 202, 202);
+}
+
+/*BODY*/
+body {
+    background-color: azure;
+    border: 5px solid black;
+    width: auto;
+    margin: 20px;
 }
 
 /*HEADER*/
 .header {
     background-color: coral;
     text-align: center;
-    width: auto;
-    height: 50px;
 }
 
 .header__nav {
