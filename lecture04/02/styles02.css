@@ -2,32 +2,34 @@ body {
     background-color: rgb(145, 202, 202);
 }
 
-header {
+/*HEADER*/
+.header {
     background-color: coral;
     text-align: center;
     width: auto;
     height: 50px;
 }
 
-nav {
+.header__nav {
     background-color: deepskyblue;
     text-align: left;
 }
 
-main {
+/*MAIN*/
+.main {
     background-color: rgb(194, 214, 180);
     text-align: center;
 }
 
-.div1 {
+.main__div1 {
     color: rgb(44, 64, 179);
 }
 
-.div2 {
+.main__div2 {
     color:rgb(109, 32, 124);
 }
 
-footer {
+.footer {
     background-color: rgb(30, 255, 244);
     text-align: right;
 }
