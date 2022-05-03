@@ -62,14 +62,15 @@ body {
 
 .main__div2 {
     background-color: rgb(169, 127, 209);
-    width: 350px;
+    width: 300px;
     height: 50px;
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    margin-left: 60px;
+    margin-left: 15px;
     padding: auto;
     border: 2px solid black;
+    position: static;
 }
 
 .main__div3 {
@@ -79,7 +80,7 @@ body {
     margin-top: 15px;
     margin-right: 60px;
     margin-bottom: 15px;
-    margin-left: 430px;
+    margin-left: 460px;
     padding: auto;
     border: 2px solid black;
 }
