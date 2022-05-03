@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(145, 202, 202);
+}
+
+header {
+    background-color: coral;
+    text-align: center;
+}
+
+nav {
+    background-color: deepskyblue;
+    text-align: left;
+}
+
+main {
+    background-color: rgb(194, 214, 180);
+    text-align: center;
+}
+
+.div1 {
+    color: rgb(44, 64, 179);
+}
+
+.div2 {
+    color:rgb(109, 32, 124);
+}
+
+footer {
+    background-color: rgb(30, 255, 244);
+    text-align: right;
+}

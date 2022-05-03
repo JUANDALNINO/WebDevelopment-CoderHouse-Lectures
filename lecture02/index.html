@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 02</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul> <!--Unordered list-->
+                <li><a href="./02.html">Second page Multimedia</a></li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>item 3</li>
+            </ul>
+            <ol> <!--Ordered list-->
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <h2>Exercises</h2>
+        <h4>List with five names:</h4>
+        <ul>
+            <li>Luisa Caceres</li>
+            <li>Martin Angarita</li>
+            <li>Juan David Niño</li>
+            <li>Sofia Niño</li>
+            <li>Santiago Arias</li>
+        </ul>
+        <h4>Cinco pasos para preparar un café:</h4>
+        <ol>
+            <li>Calentar agua</li>
+            <li>Agregar el café en polvo</li>
+            <li>Dejar calentar sin hervir durante 7 min.</li>
+            <li>Dejar reposar el café</li>
+            <li>Servir el café en los pocillos</li>
+        </ol>
+        <hr>
+        <h2>Table example:</h2>
+        <table border="1" cellspacing="10" cellpadding="4">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+            <tr>
+                <td>Date1</td>
+                <td>Date2</td>
+                <td>Date3</td>
+                <td>Date4</td>
+            </tr>
+            <tr>
+                <td>Date1a</td>
+                <td>Date2a</td>
+                <td>Date3a</td>
+                <td>Date4a</td>
+            </tr>
+        </table>
+        <h2>Table Exercise:</h2>
+        <table border="1" cellspacing="10" cellpadding="4">
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Formularios</h2>
+        <form action="" method="get" enctype="text/plain">
+            <div>
+                <label for="userName">Name</label>
+                <input type="text" name="userName" id="userName" placeholder="Your name">
+            </div>
+            <div>
+                <label for="userPhone">Phone</label>
+                <input type="number" name="userPhone" id="userPhone" placeholder="Your phone">
+            </div>
+            <div>
+                <label for="userMail">Mail</label>
+                <input type="email" name="userEmail" id="userEmail" required placeholder="Your email">
+            </div>
+            <div>
+                <label for="userText">Your message</label>
+                <input type="text" name="userText" id="userText" placeholder="Write your message">
+            </div>
+            <div>
+                <input type="submit" value="SEND">
+                <input type="reset" value="CLEAN">
+                <input type="button" value="With JS">
+            </div>
+            <div>
+                <label for="userColor">Favorite Color</label>
+                <input type="radio" name="userColor" id="userColor" value="green">Green
+                <input type="radio" name="userColor" id="userColor" value="blue">Blue
+            </div>
+            <div>
+                <label for="">Options</label>
+                <input type="checkbox" name="" id="" value="1">Accept conditions
+                <input type="checkbox" name="" id="" value="0">Do not accept
+            </div>
+            <fieldset>
+            <div>
+                <label for="userSize">Your size</label>
+                <select name="size" id="size">
+                    <option value="" disabled selected>Choose your size</option>
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+            </fieldset>
+        </form>
+        <br>
+        <hr>
+        <h2>Form Practice</h2>
+        <form>
+            <fieldset>
+                <legend>Información Personal:</legend>
+                <div>
+                    <label for="userSex">Sexo:</label> <br>
+                    <input type="radio" name="userSex" id="userSex" value="hombre">Hombre
+                    <input type="radio" name="userSex" id="userSex" value="mujer">Mujer
+                </div><br>
+                <div>
+                    <label for="userName">Nombre:</label><br>
+                    <input type="text" name="userName" id="userName" placeholder="Nombre">
+                </div><br>
+                <div>
+                    <label for="userLastName">Apellido:</label><br>
+                    <input type="text" name="userLastName" id="userLastName" placeholder="Apellido">
+                </div><br>
+                <div>
+                    <label>Talla</label><br>
+                    <select name="talla" id="talla">
+                        <option value="" disabled selected>Elige una talla</option>
+                        <option value="L">Large</option>
+                        <option value="M">Medium</option>
+                        <option value="S">Small</option>
+                    </select>
+                </div><br>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+        <section>
+            <article></article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        Footer content
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.li {
+    color: brown;
+}
+
+#liID {
+    color: green;
+    font-size: medium;
+}
+
+h1 {
+    color: blue;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+header {
+    background-color: cadetblue;
+}
+
+span {
+    color: rgb(20, 80, 20);
+    font-size: medium;
+}
+
+.colorHex {
+    color: #75a832;
+}
+
+.colorRGB {
+    color: rgb(137, 101, 93);
+}
+
+footer h2 {
+    color: green;
+}
+
+.article-h2 {
+    color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pFont {
+    color: crimson;
+}
+
+.pFont-25 {
+    font-size: medium;
+    text-align: right;
+}
+
+.pFont-30 {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pfont3 {
+    font-size: small;
+}
+
+.fontW {
+    font-weight: bold;
+}
+
+.imagen {
+    width: 150px;
+}
+
+article {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: coral;
+}
