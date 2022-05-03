@@ -1,41 +1,45 @@
-html {
-    background-color: rgb(145, 202, 202);
-}
 
-/*BODY*/
 body {
-    background-color: azure;
-    border: 5px solid black;
-    width: auto;
-    margin: 20px;
+    background-color: aliceblue;
 }
 
-/*HEADER*/
+/* HEADER */
 .header {
-    background-color: coral;
-    text-align: center;
+    width: 760px;
+    height: 120px;
+    background-color: chocolate;
+    margin: auto;
+    padding: auto;
+    border: 2px solid black;
 }
 
 .header__nav {
-    background-color: deepskyblue;
-    text-align: left;
+    background-color: darkturquoise;
+    width: 560px;
+    height: 90px;
+    margin: 12px auto 5px auto;
+    padding: auto;
+    border: 2px solid black;
 }
 
-/*MAIN*/
-.main {
-    background-color: rgb(194, 214, 180);
-    text-align: center;
+.header__box1 {
+    background-color: cornsilk;
+    width: 50px;
+    height: 50px;
+    margin: -78px 20px;
+    padding: auto;
+    border: 2px solid black;
 }
 
-.main__div1 {
-    color: rgb(44, 64, 179);
+.header__box2 {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    margin: 24px 1px 1px 685px;
+    padding: auto;
+    border: 2px solid black;
 }
 
-.main__div2 {
-    color:rgb(109, 32, 124);
-}
+/* MAIN */
 
-.footer {
-    background-color: rgb(30, 255, 244);
-    text-align: right;
-}
+/* FOOTER */
