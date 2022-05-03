@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: tomato;
+    padding: 20px;
+    border: solid 5px black;
+    overflow: scroll;
+}
+
+.text01, .text02 {
+    width: 45%;
+    display: inline-block;
+    background-color: coral;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.text03 {
+    width: 45%;
+    display: block;
+    background-color: rgb(80, 220, 255);
+    padding: 100px;
+    border: solid 2px black;
+}
+
+.text04 {
+    width: 45%;
+    display: block;
+    background-color: rgb(80, 220, 255);
+    padding: 50px;
+    border: solid 2px black;
+}
