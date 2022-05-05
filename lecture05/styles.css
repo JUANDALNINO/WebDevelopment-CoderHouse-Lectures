@@ -1,48 +1,36 @@
-body {
-    background-color: cadetblue;
+
+
+nav {
+    background-color: coral;
+    padding: 20px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.father__container {
-    background-color: black;
-    width: auto;
-    height: 1300px;
-    border: 5px solid white;
+nav ul{
     display: flex;
     flex-direction: row;
+    list-style: none;
     flex-wrap: wrap;
 }
 
-.son01 {
-    background-color: rgb(207, 83, 83);
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
+.hero {
+    background-color: aquamarine;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.son02 {
-    background-color: rgb(83, 207, 186);
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
+.card {
+    display: flex;
 }
 
-.son03 {
-    background-color: rgb(207, 83, 201);
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
+.art {
+    background-color: darkcyan;
+    flex-basis: 100%;
 }
 
-.son04 {
-    background-color: rgb(122, 207, 83);
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
-}
-
-.son05 {
-    background-color: rgb(207, 205, 83);
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
-}
