@@ -1,0 +1,83 @@
+/* 
+=> Crear el padre con px
+=> Crear los hijos con % de acuerdo al 100% del padre
+
+1. display in container father with display: flex
+2. flex-direction: row => fila, horizontal
+   flex-direction: column;
+3. justify-content: center; start; end;
+4. align-items: 
+5. flex-wrap: wrap => rodear
+6. flex-shrink: => valor en relacion al otro => 0,1,2
+=> Donde 1 vale más y 3 es la tercera parte de 1. Encoge
+   flex-grow is the same of the before that but with the difference is grow=>expand
+   flex-basis => with measures
+7. shorthand property => change with measures
+==> example with the father-3
+8. order => cambia el orden segun el numero que se le ponga
+9. align-self: center;
+
+
+*/
+
+.box-father {
+    background-color: grey;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.son-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+}
+
+.son-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+}
+
+
+.box-father-2 {
+    background-color: grey;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.son-3 {
+    background-color: rgb(53, 177, 53);
+    width: 25%;
+    height: 25%;
+    align-self: center;
+}
+
+.son-4 {
+    background-color: rgb(236, 233, 37);
+    width: 25%;
+    height: 25%;
+    align-self: flex-end;
+}
+
+
+.box-father-3 {
+    background-color: grey;
+    height: 500px;
+    display: flex;
+}
+
+.son-5 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex: 2 2 150px;
+}
+
+.son-6 {
+    background-color: orangered;
+    height: 200px;
+    flex: 1 1 150px;
+}
