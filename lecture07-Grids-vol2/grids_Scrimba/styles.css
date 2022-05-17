@@ -1,0 +1,48 @@
+.container {
+    font-size: 40px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.d1 {
+    background: skyblue;
+}
+
+.d2 {
+    background: salmon;
+}
+
+.d3 {
+    background: turquoise;
+}
+
+.d4 {
+    background: pink;
+}
+
+.d5 {
+    background: greenyellow;
+}
+
+/*
+Steps for write code with grids
+1. Father or container
+2. Sons
+- - - -
+1. In the container add:
+display: grid;
+2. Add columns with grid-template-columns in the father:
+grid-template-columns: 100px 100px 100px => Numero de columnas or in %
+3. Add rows with grid-template-rows
+4. CSS units to change the size of columns or rows:
+auto 50px 10% 2fr 1 fr;
+px = siempre se mantiene.
+fr = cambia segun el tamaño.
+5. Create a column and row gap => for space beetween the box
+
+*/
