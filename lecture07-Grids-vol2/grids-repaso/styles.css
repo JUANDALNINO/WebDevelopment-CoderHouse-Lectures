@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    color: aliceblue;
+    background-color: black;
+    font-size: rem;
+}
+
+#gridArea {
+    display: grid;
+    grid-template-areas: 
+    "headerNav"
+    "courses"
+    "services"
+    "footerSocial"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    row-gap: 2%;
+}
+
+.headerNav {
+    grid-area: headerNav;
+}
+
+#courses {
+    grid-area: courses;
+}
+
+#services {
+    grid-area: services;
+}
+
+footer {
+    grid-area: footerSocial;
+}
+
+/*  Nav */
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.imgLogo {
+    width: 100%;
+}
+
+.navLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+/* Media Queries */
+/* Phone */
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: tomato;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .navLinks {
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    body {
+        background-color: aqua;
+    }
+}
+
+/* Desktop *
