@@ -1,0 +1,7 @@
+Librerías:
+- Colección de elementos = un código con un propósito completo
+
+Framework:
+- Un marco de trabajo
+- Colección de Librerías
+- Tienen una metodología y forma para trabajar
