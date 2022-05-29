@@ -6,6 +6,8 @@ Create account on github
     git add = (todo o un archivo en especial)
     git commit = (agregado al repositorio Local)
 
+    git log --oneline => ver los commits = de cada rama
+
     git status -s => muestra de archivos que hay sin actualizar
 
     git add index.html
@@ -33,4 +35,14 @@ Create account on github
     Para que el master no se altere y poder volver a esta
     - No hay límite de ramas 
     - Si la rama gusta y funciona se pueden unir y fusionar a la master
+
+-> Crear BRANCH:
+    git branch + (nombre de lo que se va a trabajar)
+    git branch = solo - muestra las ramas y las que estoy trabajando
+        *master
+    git checkout + (nombre de la rama) = se mueve de rama
+
+-> Fusionar:
+    1. Estar en rama master
+    2. git merge + (nombre de la rama) = que se quiere fusionar
     
