@@ -1,1 +1,36 @@
 Create account on github
+-> Git = Local
+-> GitHub = cloud
+
+    git init = (iniciar crea el area de almacenamiento)
+    git add = (todo o un archivo en especial)
+    git commit = (agregado al repositorio Local)
+
+    git status -s => muestra de archivos que hay sin actualizar
+
+    git add index.html
+
+    git commit -m "mensaje del commit"
+
+-> git push = para subir
+-> git pull = para bajar
+
+    TAGS: => versiones del proyecto
+    -> git tag 15-09-20v1 -m"Version 1 of project"
+    -> git push --tags
+
+
+    CLONE: =>   
+    -> git clone (pegar url)
+
+
+    RAMAS / BRANCHES
+    - Líneas de tiempo paralelas = las ramas
+    - La original = master
+    - La copia = rama
+    - Sin que el codigo inicial no se altere
+    - Las ramas sirven para hacer pruebas que se quieran pero que no se tenga seguridad
+    Para que el master no se altere y poder volver a esta
+    - No hay límite de ramas 
+    - Si la rama gusta y funciona se pueden unir y fusionar a la master
+    
