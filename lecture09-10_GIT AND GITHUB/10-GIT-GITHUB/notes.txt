@@ -41,8 +41,16 @@ Create account on github
     git branch = solo - muestra las ramas y las que estoy trabajando
         *master
     git checkout + (nombre de la rama) = se mueve de rama
+    git -d + (nombre de la rama) = eliminar rama
 
 -> Fusionar:
     1. Estar en rama master
     2. git merge + (nombre de la rama) = que se quiere fusionar
+
+
+-> VsCode
+    - U = unfollow
+    - ramas = cuantos archivos sin guardar
+    - M = modification
+    - git add + (solo archivo editado)
     
