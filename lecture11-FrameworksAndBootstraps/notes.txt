@@ -34,3 +34,23 @@ SISTEMA DE GRILLAS
 
 -> Tamaños fijados + breakpoints (Debe sumar 12 col)
 class="col-sm-4 col-md-3 col-lg-4"
+
+
+SCRIMBA:
+1. link stylesheet => bootstrap al inicio antes del personal
+2. script => bootstrap = al final antes de cerrar body
+
+--> Responsive grid systems: for layout => grid system
+    - Breakpoints:
+        small	sm	<576px
+        Medium	md	≥768px
+        Large	lg	≥992px
+
+        => col-lg-4 col-md-4
+
+--> Responsive Navbars
+
+--> Modals
+    - Pop us
+
+--> Forms
