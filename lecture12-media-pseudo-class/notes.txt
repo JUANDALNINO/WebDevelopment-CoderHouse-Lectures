@@ -1,0 +1,5 @@
+PSEUDO CLASE:
+- Selector: EJ: :hover
+    selector:pseudoclase {
+        propiedad: valor;
+    }
