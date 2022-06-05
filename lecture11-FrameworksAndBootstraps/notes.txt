@@ -54,3 +54,16 @@ SCRIMBA:
     - Pop us
 
 --> Forms
+
+
+    1. <div class="container-fluid"> // Granpa
+    2.  <div class="row"> // Father
+    3.     <div class="col-xs-8"> // Son
+                col-tamaño-#
+
+-> img-fluid => imagenes Responsive
+
+-> Button:
+        <div class="col-xs-4">
+      <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button>
+    </div>

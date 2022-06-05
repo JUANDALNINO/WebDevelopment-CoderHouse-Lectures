@@ -3,3 +3,13 @@ PSEUDO CLASE:
     selector:pseudoclase {
         propiedad: valor;
     }
+
+    :visited => historial
+    :checked => Formulario
+    :hover => Raton encima
+
+Exepciones:
+    div:not(.padre) { // A todos los div menos a los que tenga la clase padre
+    }
+
+
