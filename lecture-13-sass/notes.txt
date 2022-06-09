@@ -1,0 +1,38 @@
+SASS
+    - Preprocesador CSS
+
+    Sass, o "Syntactically Awesome StyleSheets", es una extensión del lenguaje CSS. Añade características que no están disponibles en el CSS básico, lo que facilita la simplificación y el mantenimiento de las hojas de estilo de tus proyectos.
+
+    En este curso de Sass, aprenderás cómo almacenar datos en variables, anidar CSS, crear estilos reutilizables con mixins, añadir lógica y bucles a tus estilos, y más.
+
+    - Diferencia con CSS => es que utiliza variables
+        Parecido a JS
+    - En js => let y const
+    - En Sass => $nameVar
+
+    Example:
+            // 1. Se declaran:
+        $main-fonts: Arial, sans-serif;
+        $headings-color: green;
+            // 2. Se llaman para usarse:
+        h1 {
+            font-family: $main-fonts;
+            color: $headings-color;
+        }
+
+    -> Se usa mucho cuando un gran numero de elementos son del mismo color y lo único que hay que cambiar es la variables
+
+    -> Guardar el archivo = .scss
+
+
+Install:
+(ctrl + c => salir)
+    - npm init
+    - Enter... y rellenar datos
+    - Al final => package.json
+
+    - Script => package
+
+    - Compilar : npm run watch-css
+
+    min=> 1.09
