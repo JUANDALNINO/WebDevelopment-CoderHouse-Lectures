@@ -35,4 +35,36 @@ Install:
 
     - Compilar : npm run watch-css
 
-    min=> 1.09
+    - Live Sass extension compile
+
+
+ANIDAR CSS CON SASS:
+    - Organizar de manera parecida a HTML
+
+    Example:
+        // 1. Work on sass:
+        nav {
+        background-color: red;
+
+            ul {
+            list-style: none;
+
+            li {
+            display: inline-block;
+            }
+          }
+        }
+
+        // Compilación en CSS:
+        nav {
+        background-color: red;
+        }
+
+        nav ul {
+        list-style: none;
+        }
+
+        nav ul li {
+        display: inline-block;
+        }
+
