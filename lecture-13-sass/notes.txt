@@ -42,20 +42,20 @@ ANIDAR CSS CON SASS:
     - Organizar de manera parecida a HTML
 
     Example:
-        // 1. Work on sass:
+        // 1. Work on sass: (Family three => padres e hijos)
         nav {
         background-color: red;
 
             ul {
             list-style: none;
 
-            li {
-            display: inline-block;
+                li {
+                display: inline-block;
+                }
             }
-          }
         }
 
-        // Compilación en CSS:
+// Compilación en CSS:
         nav {
         background-color: red;
         }
@@ -68,3 +68,42 @@ ANIDAR CSS CON SASS:
         display: inline-block;
         }
 
+        // Example when don't exist more children:
+        .blog-post { 
+
+            h1 {
+            text-align: center;
+            color: blue;
+            }
+
+            p {
+            font-size: 20px;
+            } 
+        }  
+
+// Mixins:
+    // Like a js function:
+    // Creation:
+        @mixin mixin-name (parameters) {
+            //Css properties
+        }
+
+    // Called:
+        element {
+            @include mixin-name(values);
+        }
+
+    // EXAMPLE:
+        @mixin border-radius($radius) {
+        -webkit-border-radius:$radius;
+        -moz-border-radius:$radius;
+        -ms-border-radius:$radius;
+        border-radius:$radius;
+        }
+
+        #awesome {
+        @include border-radius(15px);
+        }
+
+
+// IF => ELSE:
